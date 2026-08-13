@@ -1,3 +1,15 @@
 :root{
-    --cor--fundo:purple
+    --cor-fundo:purple;
+    --cor-principal:white;
+    --cor-secundaria:pink;
+    --cor-destaque--:rgb(78, 147, 238);
+    --cor-texto:rgb(252, 252, 112);
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
