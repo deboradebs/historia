@@ -80,5 +80,14 @@ let perguntaAtual;
 let historiaFinal = " " 
 
 function mostraPergunta(){
+    if(atual >= perguntas.length){
+        return
+    }
+    perguntaAtual = perguntas[atual] 
+    caixaPerguntas.textoContent =perguntaAtual
+
+
+    
     
 }
+mostraPergunta()
