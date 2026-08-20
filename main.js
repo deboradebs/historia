@@ -1,5 +1,5 @@
 const caixaPincipal = document.querySelector(".caixa-principal")
-const caixaPergunta = document.querySelector(".caixa-pergunta")
+const caixaPerguntas = document.querySelector(".caixa-pergunta")
 const caixaAlternetivas = document.querySelector(".caixa-resultado")
 const caixaResultado = document.querySelector(".caixa-resultado")
 const textoResultado = document.querySelector(".texto-principal")
@@ -85,6 +85,10 @@ function mostraPergunta(){
     }
     perguntaAtual = perguntas[atual] 
     caixaPerguntas.textoContent =perguntaAtual.enunciado
+
+
+
+
 
 
     
